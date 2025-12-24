@@ -1,9 +1,9 @@
-const ProductCard = (props) => {
+const ProductCard = ( {name, price, brand} ) => {
   return (
     <div>
-      <h2>{props.name}</h2>
-      <p>{props.price}</p>
-      <p>{props.brand}</p>
+      <h2>{name}</h2>
+      <p>{price}</p>
+      <p>{brand}</p>
     </div>      
   );
 };
